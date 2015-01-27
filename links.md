@@ -1,3 +1,6 @@
+arduino 
+http://www.instructables.com/id/Uber-Home-Automation/?ALLSTEPS
+
 tendinte 2015
 http://www.ericsson.com/res/docs/2014/consumerlab/ericsson-consumerlab-10-hot-consumer-trends-2015.pdf
 
