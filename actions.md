@@ -1,5 +1,6 @@
 arduino + rasberry pi
 
-matematica + statistica + sociologie
+matematica + statistica + sociologie: machine learning
 
 certificare java
+
