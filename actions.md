@@ -10,7 +10,7 @@ machine learning: manning book, weka, scikit-learn.org
 
 certificare java
 
-soft pt recunoastere imagini (faciala, gasire pattern~~cod de bare)
+soft pt recunoastere imagini (faciala, gasire pattern~~cod de bare) http://www.lac.inpe.br/JIPCookbook/
 
 
 
