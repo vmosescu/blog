@@ -1,0 +1,13 @@
+OpenHAB
+
+Usa deschisa
+Problema e cum afisam istoricul
+1. Prin grafice: nu e destul de vizibil
+  OpenHAB poate afisa grafice cu rrd4j
+  Se pot crea poze pe server (Sencha Charts or Google Chart Tool) si apoi afisate
+  
+2. Text
+  OpenHAB nu prea poate afisa text
+  Textul sa fie creat de o aplicatie web
+  site-ul web sa fie afisat in OpenHab printr-un sitemap de tip webview sau 
+  se poate accesa direct site-ul
