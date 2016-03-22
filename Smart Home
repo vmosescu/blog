@@ -11,3 +11,15 @@ Problema e cum afisam istoricul
   Textul sa fie creat de o aplicatie web
   site-ul web sa fie afisat in OpenHab printr-un sitemap de tip webview sau 
   se poate accesa direct site-ul
+  
+Persistenta
+MangoDB: pe raspberry pi se instaleaza mai greu
+  -> trebuie totusi incercat; se preteaza pt IOT
+mySQL: tu creezi db, openHAB creaza automat tabelele (la prima salvare a unui item)
+tabele sunt predefinite: PK de tip time, si o alta coloana in functie de item pt valoare
+
+REST
+default este instalat REST pentru interogarea configuratiei si altele /rest
+nu am putut instala modulul REST de interogare a persistentei: 
+  cica trebuie instalat HABmin: o aplicatie web pt configurare si altele
+  cica ar trebuie sa mearga si /rest/persistence/ dupa instalare, dar nu merge
