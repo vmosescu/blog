@@ -1,4 +1,4 @@
-OpenHAB
+# OpenHAB
 
 Usa deschisa
 Problema e cum afisam istoricul
