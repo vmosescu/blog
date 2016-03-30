@@ -1,3 +1,25 @@
+# Senzori
+- La usa deschisa cand circuitul e deschis nu se stie exact *floating*
+- trebuie folosit *pull-up resistor*
+
+# Wi-Fi
+
+S-a decis folosirea XBee
+- foloseste protocolul ZigBee
+- nu prea exista senzori gata de cumparat
+- trebuie avut in vedere consumul mare de curent: programare stufoasa pt economia de energie (Arduino+XBee)
+- cap 6 din Arduino Wireless
+- 
+
+# Home Controller
+- XBee Coordinator
+- Raspberry PI
+- conexiuni posibile
+    - XBee - Arduino WiFi Gateway - Arduino Ethernet - Paspbery PI
+    - XBee - Arduino WiFi Gateway - Raspbery Pi (Phyton)
+    - Xbee - Raspbery Pi
+
+
 # OpenHAB
 
 Usa deschisa
