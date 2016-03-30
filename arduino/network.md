@@ -1,4 +1,4 @@
-# **Arduino Ethernet**
+# Arduino Ethernet
 
 Arduino Ethernet (versiune mai veche) vs Arduino Ethernet Leonardo (244 ron vs 105 ron / 60 diy)
 
