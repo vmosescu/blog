@@ -13,3 +13,14 @@
     - libraria AltSoftSerial 
     - switch shield pt pinii DIN/DOUT la pinii 2/3
     - se leaga pinii 2/3 cu 8/9
+
+#### Sleep
+- XBee consuma mult; pt asta se trece pe sleep
+- doar in configuratia End Device poate trece pe sleep
+  - Router API cu SM>0
+  - End Device API 
+- sleep modes:
+  - pin sleep (SM=1)
+  - cycle sleep (SM=4)
+  - cycle + pin (SM=5)
+- cand se utilizeaza ca si end device sa fim atenti la configurarea parintelui (Router sau Coordinator) pt SP si SN
