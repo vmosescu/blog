@@ -12,5 +12,5 @@ Collection
   - bounded: restrictioneaza numarul de elemente
 - Deque: coada la ambele capete (first/last)
 
-Map
+Map: HashMap, TreeMap, LinkedHashMap (+exemple)
 - SortedMap
