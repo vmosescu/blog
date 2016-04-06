@@ -1,0 +1,6 @@
+- excel: versiuni diferite de microsoft office
+- se retrimite fisierul
+- servicii web de preluare fisiere?
+- au adrese IP fixe?
+- productie: windows sau linux?
+- 
