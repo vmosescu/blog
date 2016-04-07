@@ -14,3 +14,10 @@ Collection
 
 Map: HashMap, TreeMap, LinkedHashMap (+exemple)
 - SortedMap
+
+Ordonare
+- Collections.sort(l); elementele din lista trebuie sa implementeze Comparable
+- Collections.sort(l,comparator); daca nu vrem sa le ordonam natural
+
+SortedSet
+
