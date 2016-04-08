@@ -16,8 +16,8 @@ Odata ajunse datele pe server ele vor fi prelucrate.
 
 Pentru prelucrare exista un framework Spring Batch care te ajuta sa faci exact acest lucru: http://projects.spring.io/spring-batch/
 
-Si pentru aplicatia web cu securitate se poate folosi frameworkurile http://projects.spring.io/spring-framework/ si http://projects.spring.io/spring-security/ 
-
+Si pentru aplicatia web cu securitate se pot folosi frameworkurile http://projects.spring.io/spring-framework/ si http://projects.spring.io/spring-security/ 
+iar pentru accesul la baza de date http://projects.spring.io/spring-data/ 
 
 
 
