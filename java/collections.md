@@ -2,7 +2,6 @@
 
 ## Interfaces
 
-### Collection
 Collection
 - Set (SortedSet): HashSet(hash table), TreeSet(ordered-cost), LinkedHashSet(orderd by insertion)
 - List: ArrayList, LinkedList; subList(int fromIndex, int toIndex)
@@ -20,4 +19,13 @@ Ordonare
 - Collections.sort(l,comparator); daca nu vrem sa le ordonam natural
 
 SortedSet
+- range view: subSet(E fromElement, E toElement); headSet(E toElement); tailSet(E fromElement);
+- endpoints: first(); last();
+- Comparator access: Comparator<? super E> comparator();
+
+SortedMap
+- range view: SortedMap<K, V>  subMap(K fromKey, K toKey); headMap(K toKey); tailMap(K fromKey);
+- endpoints: Key<K> firstKey(); lastKey();
+- Comparator access: Comparator<? super K> comparator();
+
 
