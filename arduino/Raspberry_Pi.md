@@ -16,6 +16,7 @@ cd /opt/openhab
 java -jar /opt/openhab/home-0.0.1.jar
 ```
 opendoor-stop.sh (nu stiu exact ce face si vrea sa opreasca 2 procese; pe al doilea nu il poate opri)
+- cred ca al doilea este exact comanda care se da
 ```
 #!/bin/bash
 pid=`ps aux | grep home-0.0.1 | awk '{print $2}'`
