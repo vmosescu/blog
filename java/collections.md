@@ -28,4 +28,10 @@ SortedMap
 - endpoints: Key<K> firstKey(); lastKey();
 - Comparator access: Comparator<? super K> comparator();
 
+## Agregate Operations
+
+- pipeline: source, 0 - * intermadiate operations (e.g. filter), terminal operation (e.g. forEach)
+- reduction (terminal): sum, average, min, max, count
+    - Stream.reduce: returneaza o noua valoare de fiecare data cand proceseaza un element
+    - Stream.collect: modifica valoarea existenta; v. clasa Collectors
 
