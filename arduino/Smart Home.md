@@ -1,3 +1,8 @@
+- bestbuy:
+    - samsung: 40 usd: multipurpose, water, motion
+    - securifi: 30 usd: door, motion (40)
+- sparkfun
+
 # Senzori
 - La usa deschisa cand circuitul e deschis nu se stie exact *floating*
 - trebuie folosit *pull-up resistor*
@@ -6,7 +11,7 @@
 
 S-a decis folosirea XBee
 - foloseste protocolul ZigBee
-- nu prea exista senzori gata de cumparat
+- nu prea exista senzori gata de cumparat in Europa (mai trebuie cautat); in USA am gasit o gramada
 - trebuie avut in vedere consumul mare de curent: programare stufoasa pt economia de energie (Arduino+XBee)
 - cap 6 din Arduino Wireless
 - 
