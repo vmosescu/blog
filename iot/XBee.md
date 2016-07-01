@@ -1,3 +1,6 @@
+- XBee Explorer USB: configureaza XBee prin conectare la PC prin USB (5v->3.3v)
+- 
+
 1. Se configureaza XBee cu XCTU
   - Coordinator API: cel ce primeste, langa Raspberry pi
   - Router API: cel care trimite mesaje de la senzor
