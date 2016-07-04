@@ -2,11 +2,19 @@ http://forums.parallax.com/discussion/157233/propeller-to-smartthings-communicat
 
 The above process will change the following parameters on the xBee:
 - ZS ZigBee Stack Profile: 2=ZigBee-Pro. This is required to communicate with a ZigBee HA network
-- NJ Node JoinTime: 0x5a This setting allows devices to join a network it must not be at the default or it will allow devices to join at any time causing a security problem.
+- NJ Node JoinTime: 0x5a 
+This setting allows devices to join a network it must not be at the default or 
+it will allow devices to join at any time causing a security problem.
 - EE Encryption Enable: enable. Security has to be enabled to join a ZigBee Home Automation network
 - EO Set Bit 1 = 1. This will force the network security key to be transmitted encrypted.
-- KY Encryption Key = 0X5A6967426565416C6C69616E63653039 This is the encryption key for all ZigBee Home Automation networks. It is required to join the SmartThings hub and other standard ZigBee Home Automation networks. I will discuss the security keys and joining process in a future post.
+- KY Encryption Key = 0X5A6967426565416C6C69616E63653039 
+This is the encryption key for all ZigBee Home Automation networks. 
+It is required to join the SmartThings hub and other standard ZigBee Home Automation networks. 
+I will discuss the security keys and joining process in a future post.
 - BD Baud Rate is set to 115200
-- D6 is set to RTS flow control. The Propeller ZigBee Home Automation driver uses RS232 hardware flow control to communicate with the xBee. It is possible to get by without flow control but there is a lot going on and it is best to not miss any packets so it is worth the two extra wires on your board.
+- D6 is set to RTS flow control. 
+The Propeller ZigBee Home Automation driver uses RS232 hardware flow control to communicate with the xBee. 
+It is possible to get by without flow control but there is a lot going on and it is best to not miss any packets 
+so it is worth the two extra wires on your board.
 - AP API Enable = true
 - AO API Output Mode = 3 ZDO pass-through
