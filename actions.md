@@ -1,3 +1,5 @@
+- sa nu mai apara anunturi dupa ce nu te mai intereseaza
+  - il intereseaza pe google in primul rand deoarece tu nu mai apesi pe ele; ex. anunturi pt excursii dupa ce a trecut perioada
 - firma in usa
 http://www.startupcafe.ro/stiri-howto-21160368-cum-iti-poti-inregistra-startup-statle-unite-distanta-ajuta-firma-acolo.htm
 - arduino RF network (~z-wave network) + controller (raspberry pi + app) (~HC2)
